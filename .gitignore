@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local Netlify folder
+.netlify
+
+# Cache local do Vite
+.vite-cache
+node_modules/.vite-*

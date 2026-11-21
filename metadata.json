@@ -1,0 +1,6 @@
+{
+  "name": "A Noite das Marcas",
+  "description": "Versão digital dinâmica e anônima de A Noite das Marcas (Town of Salem sem Mestre) para jogar no celular de cada convidado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

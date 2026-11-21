@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1000" viewBox="0 0 840 1000" fill="none">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#26312b"/><stop offset=".7" stop-color="#18231f"/><stop offset="1" stop-color="#111916"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#d5cfad" stop-opacity=".18"/><stop offset="1" stop-color="#d5cfad" stop-opacity="0"/></radialGradient>
+ <linearGradient id="moon" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e9dcb5"/><stop offset="1" stop-color="#a59f80"/></linearGradient>
+ <linearGradient id="mist" x2="0" y2="1"><stop stop-color="#a9b7a1" stop-opacity="0"/><stop offset=".5" stop-color="#a9b7a1" stop-opacity=".11"/><stop offset="1" stop-color="#a9b7a1" stop-opacity="0"/></linearGradient>
+ <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M0 9 9 0" stroke="#a6b197" stroke-opacity=".08" stroke-width=".7"/></pattern>
+ <pattern id="brick" width="34" height="20" patternUnits="userSpaceOnUse"><path d="M0 0h34M0 20h34M17 0v10M0 10h34M0 10v10M34 10v10" stroke="#a6b197" stroke-opacity=".13" stroke-width=".8"/></pattern>
+ <pattern id="roof" width="14" height="8" patternUnits="userSpaceOnUse"><path d="m0 8 7-8 7 8" stroke="#8b9b85" stroke-opacity=".23" stroke-width=".8"/></pattern>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+ <g id="window"><path d="M0 28V7a7 7 0 0 1 14 0v21Z" fill="#c49958" fill-opacity=".65" stroke="#091310" stroke-width="3"/><path d="M7 1v27M0 13h14" stroke="#18211b" stroke-width="2"/></g>
+ <g id="dark-window"><path d="M0 26V6a6 6 0 0 1 12 0v20Z" fill="#0c1612" stroke="#71816b" stroke-opacity=".4"/><path d="M6 0v26M0 12h12" stroke="#63765e" stroke-opacity=".3"/></g>
+ <g id="pine"><path d="m0 0-18 50h9l-20 37h15l-24 47h32v35H6v-35h32L14 87h15L9 50h9Z" fill="currentColor"/></g>
+</defs>
+<g filter="url(#grain)">
+<path fill="url(#sky)" d="M0 0h840v1000H0z"/>
+<circle cx="444" cy="270" r="264" fill="url(#halo)"/>
+<g fill="#c9c5a7" opacity=".5"><circle cx="94" cy="120" r="1.3"/><circle cx="187" cy="73" r="1"/><circle cx="319" cy="99" r="1.3"/><circle cx="591" cy="105" r="1.4"/><circle cx="740" cy="200" r="1"/><circle cx="675" cy="74" r="1"/><circle cx="249" cy="218" r="1"/><circle cx="103" cy="309" r="1.3"/><circle cx="676" cy="338" r="1"/><circle cx="760" cy="403" r="1.5"/><circle cx="561" cy="408" r="1"/><circle cx="244" cy="375" r="1"/></g>
+<circle cx="444" cy="260" r="116" fill="url(#moon)"/>
+<g fill="#5a6552" opacity=".13"><ellipse cx="398" cy="217" rx="28" ry="34"/><ellipse cx="467" cy="300" rx="45" ry="22"/><circle cx="481" cy="220" r="18"/><circle cx="396" cy="291" r="17"/><ellipse cx="434" cy="174" rx="27" ry="12"/></g>
+<circle cx="444" cy="260" r="123" stroke="#dbd4ae" stroke-opacity=".18"/><circle cx="444" cy="260" r="135" stroke="#dbd4ae" stroke-opacity=".08"/>
+<g stroke="#9fa88f" stroke-width="1" opacity=".16"><path d="M51 252c131-23 158-29 265-15M550 293c89-8 158-30 265-13M305 360c158 16 254 7 344-5M119 190c81-12 103-13 171-9"/></g>
+<path d="M0 543 95 443l80 61 116-104 116 111 103-78 138 91 105-93 87 67v502H0Z" fill="#26372d"/>
+<path d="m0 571 140-76 111 78 128-71 116 70 177-85 168 91v422H0Z" fill="#203026"/>
+<g color="#24392b"><use href="#pine" x="73" y="365" transform="translate(18 156) scale(.75)"/><use href="#pine" x="101" y="390"/><use href="#pine" x="681" y="410"/><use href="#pine" x="728" y="420"/></g>
+<!-- Distant village -->
+<g fill="#25342b" stroke="#91a18b" stroke-opacity=".22"><path d="M59 602V536l36-33 37 33v84M145 597v-78l27-31 27 31v94M216 601v-64l29-28 31 28v79M507 599v-74l38-35 39 35v89M649 614v-71l40-35 41 35v85"/></g>
+<g fill="#9f915a" opacity=".5"><path d="M90 550h7v13h-7zM164 538h7v12h-7zM246 556h7v12h-7zM546 540h7v12h-7zM695 560h7v12h-7z"/></g>
+<path d="M0 615c147-60 223 23 369-8s252-36 471 3v122H0Z" fill="url(#mist)"/>
+<!-- Clock tower -->
+<path d="M351 687V408h103v279Z" fill="#3a4435" stroke="#7b8b71" stroke-opacity=".55"/>
+<path d="M351 408h103v279H351Z" fill="url(#brick)"/>
+<path d="M339 411 402 274l65 137Z" fill="#17271e" stroke="#85947a" stroke-opacity=".6"/>
+<path d="m339 411 63-137 65 137Z" fill="url(#roof)"/>
+<path d="M402 256v33m-6-23h12" stroke="#939d7e" stroke-width="2"/>
+<path d="M344 411h117v11H344Z" fill="#53604a" stroke="#829171" stroke-opacity=".4"/>
+<path d="M365 436h74v93h-74z" fill="#25392a" stroke="#89947a" stroke-opacity=".45"/>
+<circle cx="402" cy="481" r="28" fill="#b6b28b" stroke="#14251b" stroke-width="5"/>
+<circle cx="402" cy="481" r="23" stroke="#4d5d46"/>
+<path d="M402 461v20l-12 8M402 456v4m0 42v5m-25-26h5m41 0h5" stroke="#243821" stroke-width="2"/>
+<use href="#dark-window" x="369" y="552"/><use href="#window" x="417" y="551"/>
+<path d="M348 598h109v8H348Z" fill="#6d785c" opacity=".5"/>
+<path d="M374 690v-51a27 27 0 0 1 54 0v51Z" fill="#14251b" stroke="#6a7d60" stroke-width="3"/>
+<!-- Left manor -->
+<path d="M-15 782V638l99-96 101 96v146Z" fill="#344331" stroke="#6c7e5f" stroke-opacity=".6"/>
+<path d="m-28 639 110-116 118 116-19 9-99-94-93 93Z" fill="#14271c" stroke="#748766" stroke-opacity=".6"/>
+<path d="M-28 639 82 523l118 116-19 9-99-94-93 93Z" fill="url(#roof)"/>
+<path d="M133 576v-66h19v84" fill="#283c29" stroke="#758367" stroke-opacity=".5"/>
+<path d="M-15 638h200v146H-15Z" fill="url(#brick)"/>
+<use href="#window" x="27" y="659"/><use href="#dark-window" x="113" y="659"/>
+<use href="#dark-window" x="27" y="716"/><use href="#window" x="113" y="716"/>
+<path d="M71 782v-48a15 15 0 0 1 30 0v48" fill="#12251a" stroke="#6c7e5f"/>
+<path d="m-5 701 176 1M85 557v139M5 645l162 51M163 646 7 696" stroke="#192d1e" stroke-width="5"/>
+<!-- Behind center houses -->
+<path d="M183 751V609l65-67 69 67v142Z" fill="#41503a" stroke="#7e8b6b" stroke-opacity=".5"/>
+<path d="m173 613 75-85 81 85Z" fill="#1a2c1f" stroke="#768465" stroke-opacity=".65"/>
+<path d="m173 613 75-85 81 85Z" fill="url(#roof)"/>
+<use href="#window" x="222" y="641"/><use href="#dark-window" x="268" y="641"/><use href="#dark-window" x="222" y="702"/>
+<path d="M465 746V601l68-62 74 62v145Z" fill="#384b35" stroke="#879675" stroke-opacity=".4"/>
+<path d="m453 606 80-83 85 83Z" fill="#1b3021" stroke="#7e906e" stroke-opacity=".55"/><path d="m453 606 80-83 85 83Z" fill="url(#roof)"/>
+<use href="#window" x="493" y="632"/><use href="#dark-window" x="552" y="632"/><use href="#window" x="552" y="690"/>
+<!-- Right manor -->
+<path d="M623 799V651l101-100 115 110v138Z" fill="#344b33" stroke="#82916e" stroke-opacity=".55"/>
+<path d="m610 658 114-126 130 129-18 7-112-108-96 108Z" fill="#14291b" stroke="#81926b" stroke-opacity=".6"/><path d="m610 658 114-126 130 129-18 7-112-108-96 108Z" fill="url(#roof)"/>
+<path d="M780 598v-66h19v84" fill="#243b27" stroke="#7c8c67" stroke-opacity=".4"/>
+<path d="M623 651h216v148H623Z" fill="url(#brick)"/>
+<use href="#dark-window" x="654" y="683"/><use href="#window" x="721" y="683"/><use href="#dark-window" x="793" y="683"/>
+<use href="#window" x="654" y="742"/><use href="#dark-window" x="793" y="742"/>
+<path d="M714 799v-40a20 20 0 0 1 40 0v40Z" fill="#11271a" stroke="#607b53"/>
+<path d="M640 729h185M724 565v159m-78-58 78 56 89-51" stroke="#1a321f" stroke-width="5"/>
+<!-- Winding street -->
+<path d="M373 695c-65 48-64 77 24 111s91 105-11 194h229c97-146 0-195-104-231-70-24-88-49-78-74Z" fill="#41523b" opacity=".7"/>
+<path d="M373 695c-65 48-64 77 24 111s91 105-11 194m47-305c-10 25 8 50 78 74 104 36 201 85 104 231" stroke="#899478" stroke-opacity=".24"/>
+<g stroke="#8e9777" stroke-opacity=".2"><path d="m359 731 80 1m-95 23 132 4m-91 25 157 10m-116 26 164 19m-144 16 162 22m-166 15 167 32m-176 13 170 32m-198 20 171 28m-205 24 177 24"/></g>
+<!-- Foreground buildings -->
+<path d="M37 1000V842l98-102 123 102v158Z" fill="#172b1c" stroke="#647a54" stroke-opacity=".55"/>
+<path d="M17 845 135 718l140 127-25 9-115-99-95 99Z" fill="#102218" stroke="#6a7e59" stroke-opacity=".6"/>
+<path d="M17 845 135 718l140 127-25 9-115-99-95 99Z" fill="url(#roof)"/>
+<path d="M37 842h221v158H37Z" fill="url(#brick)"/>
+<use href="#window" x="79" y="868"/><use href="#dark-window" x="179" y="868"/>
+<path d="M121 1000v-67a22 22 0 0 1 44 0v67" fill="#0b1c12" stroke="#425c39"/>
+<path d="M631 1000V892l90-100 119 91v117Z" fill="#142719" stroke="#657d54" stroke-opacity=".5"/>
+<path d="m612 898 107-127 133 113-13 18-120-106-89 112Z" fill="#102217" stroke="#708560" stroke-opacity=".5"/>
+<use href="#window" x="674" y="921"/><use href="#dark-window" x="775" y="921"/>
+<!-- Gas lantern -->
+<path d="M571 839v113m-22-104h44m-39 0-5-40h44l-5 40Zm-10-40 33-23 34 23" stroke="#91a278" stroke-width="2" fill="#233c25"/>
+<path d="M556 813h30l-3 30h-24Z" fill="#c2a264" opacity=".7"/><path d="M571 814v30" stroke="#213c22" stroke-width="2"/>
+<!-- Framing branches -->
+<g stroke="#102218" stroke-linecap="round"><path d="M-12 403C80 308 47 213 20 100S28-12 36-25M38 246l94-85 31-82M53 193 113 84l-8-65M22 122l-51-91M90 182l97-26m-61-54 57-27M841 509c-52-118-28-237 11-338m-29 166-84-77-50-123m104 164-113-20-58-50m111 47-14-93m96 80-7-105" stroke-width="9"/><path d="m84 205 79 8m-22-51 73-47M61 153 5 186m94-88 46-65m-2 62 7-66M746 245l-67-17-42-44m83 40-9-87m83 163-28-90" stroke-width="3"/></g>
+<path fill="url(#hatch)" d="M0 0h840v1000H0z"/>
+</g>
+</svg>
